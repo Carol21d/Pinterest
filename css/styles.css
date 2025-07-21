@@ -12,7 +12,9 @@ body{
 
 p{
   text-align: center;
-  margin-bottom: 2rem;
+  margin-top: 0.3rem;
+  text-align: left;
+  /* margin-bottom: 2rem; */
 
 }
 .container {
@@ -24,16 +26,35 @@ p{
   padding: 16px;
 }
 
+
+/*Colocamos estas propiedades para que se adapte la img al contener*/
 .container img {
  width: 100%;
  display: block;
  height: auto;
+ /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+ border-radius: 12px;
 
 }
-.item {
+.item-container {
   background-color: #ffffff;
-  border: 1px solid #ddd;
-  padding: 16px;
-  border-radius: 3px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid #ddd; */
+  padding: 3px;
+  border-radius: 15px;
+}
+
+/* estilos para cada imagenes*/
+.item7 img {
+filter: drop-shadow(10px 10px 15px rgba(30, 30, 31, 0.521));  /* le da una sombra al snoppy alrededor */
+ } 
+
+.item8 img{ 
+  width: 80%;
+  margin: 2rem auto;
+  display: block;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: top;
+
 }
