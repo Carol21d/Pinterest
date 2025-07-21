@@ -48,7 +48,7 @@ p{
 filter: drop-shadow(10px 10px 15px rgba(30, 30, 31, 0.521));  /* le da una sombra al snoppy alrededor */
  } 
 
-.item8 img{ 
+/* .item8 img{ 
   width: 80%;
   margin: 2rem auto;
   display: block;
@@ -57,4 +57,4 @@ filter: drop-shadow(10px 10px 15px rgba(30, 30, 31, 0.521));  /* le da una sombr
   object-fit: cover;
   object-position: top;
 
-}
+} */
