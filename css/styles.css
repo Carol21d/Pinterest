@@ -7,8 +7,7 @@
 
 body{
   font-family: sans-serif;
-  /* padding: 0.9rem; */
-  /* margin-right: 2rem; */
+ 
 }
 
 
@@ -17,7 +16,7 @@ p{
   text-align: center;
   margin-top: 0.3rem;
   text-align: left;
-  /* margin-bottom: 2rem; */
+ 
 
 }
 .container {
@@ -38,10 +37,10 @@ p{
  width: 100%;
  display: block;
  height: auto;
- /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
  border-radius: 12px;
-
 }
+ 
+
 .item-container {
   background-color: #ffffff;
   /* border: 1px solid #ddd; */
@@ -54,16 +53,7 @@ p{
 filter: drop-shadow(10px 10px 15px rgba(30, 30, 31, 0.521));  /* le da una sombra al snoppy alrededor */
  } 
 
-/* .item8 img{ 
-  width: 80%;
-  margin: 2rem auto;
-  display: block;
-  border-radius: 50%;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  object-position: top;
- probando cosas para poppy h
-} */
+
 
 
 /*Navegador */
@@ -108,7 +98,7 @@ filter: drop-shadow(10px 10px 15px rgba(30, 30, 31, 0.521));  /* le da una sombr
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* padding: 0.9rem; */
+ 
   
 }
 
@@ -158,9 +148,7 @@ section{
 
 .item_sidebar_down{
   height: 10px;
-  /* display: flex; */
-  /* height: 5%; */
-  
+
 }  
 
 
