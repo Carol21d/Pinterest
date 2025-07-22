@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nav{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    height: 70px;
+    width: 120px;
+}
+
+#logo-text{
+    font-size: 35px;
+    font-weight: 600;
+    color: red;
+}
+
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 40px 40px;
+    border: none;
+}
+
+#search{
+    width: 55vw;
+    justify-content: center;
+}
+
+#searchInput{
+    width: 55vw;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 40px;
+    background-color: #f1ececfb;
+}
+
+#suggest{
+    max-height: 40vh;
+    width: 55vw;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 0px 0px 50px 50px ;
+    display: none;
+    z-index: 2;
+    overflow-y:auto;
+}
+
+#suggestions{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#suggestions ul{    
+    padding: 10px;
+    margin: 5px;
+}
+
+#suggestions ul:hover{    
+    background-color: peachpuff;
+    cursor: pointer;
+}
+
+#blur{
+    height: 85vh;
+    width: 100%;
+    background-color: #fa0404a7;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+#searchInput:focus{
+    border: 2px solid #9c1a1a;
+}
+
+#signup{
+    background-color: red;
+    color: #fff;
+    margin-left: -15px;
+    margin-right: -25px;
+}
+
+#explore{
+    display: flex;
+}
+
+#explore i{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+i{
+    font-size: 24px;
+    font-weight: 600;
+    color:  rgba(104, 96, 96, 0.675);
+}
+
+.container {
+    padding-top: 3vh;
+    width: 90vw;
+    margin: auto;
+    columns: 6;
+    column-gap: 20px;
+  }
+  .container .box {
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+    border-radius: 15px;
+  }
+  .container .box img {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+  }
+  
+  img:hover {
+    opacity: 0.95;
+    cursor: pointer;
+  }
+  
+  .caption {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+  }

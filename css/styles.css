@@ -27,7 +27,7 @@ p{
 }
 
 
-/*Colocamos estas propiedades para que se adapte la img al contener*/
+/*Colocamos estas propiedades para que se adapte la img al contenedor*/
 .container img {
  width: 100%;
  display: block;
@@ -56,5 +56,51 @@ filter: drop-shadow(10px 10px 15px rgba(30, 30, 31, 0.521));  /* le da una sombr
   aspect-ratio: 1/1;
   object-fit: cover;
   object-position: top;
-
+ probando cosas para poppy h
 } */
+
+
+/*Navegador */
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#searchInput{
+  width: 75vw;
+  font-size: 16px;
+  padding: 1rem 3.5rem;
+  border:none;
+  border-radius: 40px;
+  background-color: #E1E1E1;
+  
+}
+
+#foto_perfil{
+   height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+main{
+  display: flex;
+}
+
+section{
+  width: 100%;
+}
+
+ .sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: fl;
+ }
